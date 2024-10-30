@@ -5,11 +5,11 @@ class MyHomePage extends StatelessWidget {
   final String name = 'Gedagedi Gedagedago'; // Nama
   final String className = 'PBP S'; // Kelas
 
-        final List<ItemHomepage> items = [
-        ItemHomepage("Lihat Mood", Icons.mood),
-        ItemHomepage("Tambah Mood", Icons.add),
-        ItemHomepage("Logout", Icons.logout),
-    ];
+  final List<ItemHomepage> items = [
+      ItemHomepage("Lihat Mood", Icons.mood),
+      ItemHomepage("Tambah Mood", Icons.add),
+      ItemHomepage("Logout", Icons.logout),
+  ];
     
   MyHomePage({super.key});
 
